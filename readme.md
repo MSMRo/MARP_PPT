@@ -12,3 +12,7 @@ Las *señales* del **curso** son:
 * EMG
 * EKG
 * EEG
+
+![Foto de perrito](./img/4GFYMYJE5ZDWXGOEOYWI7XSIAQ.png)
+
+![Foto de perrito](./img/4GFYMYJE5ZDWXGOEOYWI7XSIAQ.png)
