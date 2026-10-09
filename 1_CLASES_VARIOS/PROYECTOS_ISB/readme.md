@@ -78,7 +78,7 @@ style: |
 </div>
 <div class="subtitle">Introducción a Señales Biomédicas</div>
 <div class="author" style="font-weight: bold; font-size: 18px; color: #111111; margin-top: 15px;">
-  Mag. Ing. CIP Moisés Stiglitz Rodríguez
+  Mag. Ing. CIP Moises Meza Rodriguez
 </div>
 <div class="author" style="font-size: 15px; color: #555555; margin-top: 5px;">
   Facultad de Ciencias e Ingenieria
@@ -104,7 +104,7 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1507668077129-56e32842fceb?fm=jpg&w=450" alt="Investigación Biomédica" />
+<img src="./imgs/ethics-icon-design-free-vector.jpg" alt="Investigación Biomédica" />
 
 </div>
 </div>
@@ -128,10 +128,16 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?fm=jpg&w=450" alt="Regulación y Ética" />
+<img src="./imgs/Screenshot 2026-10-08 223433.png" alt="Regulación y Ética" />
 
 </div>
 </div>
+
+<br>
+
+- [https://investigacion.cayetano.edu.pe/duari/orvei/](https://investigacion.cayetano.edu.pe/duari/orvei/)
+
+- [https://drive.google.com/file/d/1fG-Sc3N5EfAqfBL0x5DGKSE-ZzZLQr3w/view](https://drive.google.com/file/d/1fG-Sc3N5EfAqfBL0x5DGKSE-ZzZLQr3w/view)
 
 ---
 
@@ -152,10 +158,16 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?fm=jpg&w=450" alt="Clasificación de Documentos" />
+<img src="./imgs/Screenshot 2026-10-08 224047.png" alt="Clasificación de Documentos" />
 
 </div>
 </div>
+
+<br><br>
+
+- [https://educacion.cayetano.edu.pe/wp-content/uploads/sites/17/2025/05/REGISTRO-DE-LOS-PROYECTOS-EN-SIDISI.pdf](https://educacion.cayetano.edu.pe/wp-content/uploads/sites/17/2025/05/REGISTRO-DE-LOS-PROYECTOS-EN-SIDISI.pdf)
+
+- [https://psicologia.cayetano.edu.pe/wp-content/uploads/sites/21/2023/06/GUIA-PARA-REGISTRARSE-EN-CITIPROGRAM-1-2.pdf](https://psicologia.cayetano.edu.pe/wp-content/uploads/sites/21/2023/06/GUIA-PARA-REGISTRARSE-EN-CITIPROGRAM-1-2.pdf)
 
 ---
 
@@ -176,10 +188,14 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?fm=jpg&w=450" alt="Estudios con Humanos" />
+<img src="./imgs/historia-experimento-tuskegee-default.jpg" alt="Estudios con Humanos" />
 
 </div>
 </div>
+
+<br>
+
+- [https://drive.google.com/file/d/18sicUr7J4qFl97fflu6lSq3G-5OJrxr6/view](https://drive.google.com/file/d/18sicUr7J4qFl97fflu6lSq3G-5OJrxr6/view)
 
 ---
 
@@ -200,7 +216,7 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?fm=jpg&w=450" alt="Investigación en Laboratorio" />
+<img src="./imgs/Screenshot 2026-10-08 224356.png" alt="Investigación en Laboratorio" />
 
 </div>
 </div>
@@ -230,6 +246,10 @@ style: |
 
 </div>
 </div>
+
+<br>
+
+- [https://drive.google.com/file/d/1P1Gt2v6fVEHAFE15s_67i23L5T8X-xgh/view](https://drive.google.com/file/d/1P1Gt2v6fVEHAFE15s_67i23L5T8X-xgh/view)
 
 ---
 
@@ -303,10 +323,14 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?fm=jpg&w=450" alt="Sensores y Electrónica" />
+<img src="./imgs/sensors-25-03600-g010.png" alt="Sensores y Electrónica" />
+
+[https://www.mdpi.com/1424-8220/25/12/3600](https://www.mdpi.com/1424-8220/25/12/3600)
 
 </div>
 </div>
+
+
 
 ---
 
@@ -327,31 +351,39 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?fm=jpg&w=450" alt="Laboratorio de Adquisición" />
+<img src="./imgs/Screenshot 2026-10-08 224829.png" alt="Laboratorio de Adquisición" />
 
 </div>
 </div>
 
 ---
 
-## La Cadena de Adquisición Analógica
+## Recorte de la señal
 
 <div class="columns">
 <div>
 
-<div class="beamer-block">
-  <strong>Desde el Biopotencial hasta el Microcontrolador</strong>
-</div>
+* **Conversor ADC:** Cuantización y codificación (10 bits de resolución para señales biológicas en bitalino).
+* Cada grabación de señal debe estar recortada en unidades de análisis.
 
-* **Transductor/Electrodo:** Conversión de corriente iónica en flujo de electrones.
-* **Amplificador de Instrumentación (INA):** Alto rechazo al modo común (CMRR > 100 dB) y ganancia programable.
-* **Filtro Anti-Aliasing:** Filtro pasabajo analógico para cumplir el criterio de Nyquist ($f_s > 2 f_{max}$).
-* **Conversor ADC:** Cuantización y codificación (10 a 16 bits de resolución para señales biológicas).
+```python
+import numpy as np
+from numpy.lib.stride_tricks import sliding_window_view
+x = np.arange(6)
+x.shape
+v = sliding_window_view(x, 3)
+v.shape
+v
+array([[0, 1, 2],
+       [1, 2, 3],
+       [2, 3, 4],
+       [3, 4, 5]])
+```
 
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?fm=jpg&w=450" alt="Cadena de Instrumentación" />
+<img src="https://storage.ghost.io/c/6e/0e/6e0e26fe-725b-4e15-9ec4-d601546ae1a3/content/images/assets/dsp1_764ab22063.png" />
 
 </div>
 </div>
@@ -377,7 +409,7 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?fm=jpg&w=450" alt="Filtrado Digital" />
+<img src="./imgs/iir.jpeg" alt="Filtrado Digital" />
 
 </div>
 </div>
@@ -403,7 +435,7 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?fm=jpg&w=450" alt="Análisis de Señales" />
+<img src="./imgs/sensors-24-05400-g001.png" alt="Análisis de Señales" />
 
 </div>
 </div>
@@ -427,7 +459,7 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?fm=jpg&w=450" alt="Transformada Wavelet" />
+<img src="https://la.mathworks.com/help/wavelet/gs/ch01_intro62.gif" alt="Transformada Wavelet" />
 
 </div>
 </div>
@@ -476,7 +508,7 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?fm=jpg&w=450" alt="Machine Learning" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLn9Ajb86L_DPSMGW33cI4e50kwLKgf-JyjCol8cQzSLSdfqawvjxnf5a&s=10" alt="Machine Learning" />
 
 </div>
 </div>
@@ -500,7 +532,7 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?fm=jpg&w=450" alt="Deep Learning" />
+<img src="https://nl.mathworks.com/discovery/feature-extraction/_jcr_content/mainParsys/image_1.adapt.full.medium.jpg/1790673589658.jpg" alt="Deep Learning" />
 
 </div>
 </div>
@@ -526,10 +558,21 @@ style: |
 </div>
 <div>
 
-<img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?fm=jpg&w=450" alt="Interfaz Humano Máquina" />
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*R1oEVoTDDXfebaNodXTmbw.gif" alt="Interfaz Humano Máquina" />
 
 </div>
 </div>
+
+---
+![height:710px](./imgs/Spanish%20Project%20Classification%20Flowchart.png)
+
+---
+
+![](./imgs/Diagrama%20de%20fuentes%20de%20datos%20para%20proyectos.png)
+
+---
+
+![](./imgs/Signal%20Processing%20Pipeline.png)
 
 ---
 
