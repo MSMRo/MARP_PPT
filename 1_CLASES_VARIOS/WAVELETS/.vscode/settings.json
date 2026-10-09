@@ -1,0 +1,8 @@
+{
+"markdown.marp.themes": [
+    "https://raw.githubusercontent.com/mikael-ros/neobeam/main/css/neobeam.css",
+    "https://raw.githubusercontent.com/mikael-ros/neobeam/main/css/neobeam-beamer.css"
+],
+ "markdown.marp.html": "all",
+
+}

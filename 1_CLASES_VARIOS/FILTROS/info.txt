@@ -1,0 +1,21 @@
+https://github.com/rnd195/my-marp-themes/tree/live
+
+https://rnd195.github.io/marp-community-themes/theme/beam.html
+
+
+1. descargar el tema y ponerlo en el folder themes
+
+2. Crear el archivo .vscode/settings.json
+.vscode/settings.json
+{
+  "markdown.marp.themes": [
+    "./themes/dracula.css"
+  ]
+}
+
+
+En el markdown
+---
+marp: true
+theme: dracula
+---

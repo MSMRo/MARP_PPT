@@ -1,0 +1,7 @@
+{
+  "markdown.marp.themes": [
+    "./dsp-theme.css",
+    "./themes/beam.css",
+    "./themes/neobeam.css"
+  ]
+}

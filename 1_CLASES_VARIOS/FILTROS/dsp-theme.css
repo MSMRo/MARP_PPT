@@ -1,0 +1,69 @@
+/* @theme dsp */
+
+@import 'default';
+
+ section {
+    font-size: 24px;
+  padding: 55px 70px 70px 70px;
+  line-height: 1.35;
+  }
+
+  h1 {
+  color: #1E3A8A;
+  font-size: 44px;
+  margin-bottom: 0.2em;
+}
+
+  h2 {
+  color: #2563EB;
+  font-size: 32px;
+  margin-bottom: 0.3em;
+ }
+  h3 {
+    color: #0F172A;
+  }
+
+  code {
+    font-size: 18px;
+  }
+
+  table {
+    font-size: 22px;
+  }
+
+  img {
+    max-height: 500px;
+  }
+  ul, ol {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  line-height: 1.4;
+    }
+
+    li {
+  margin: 0.15em 0;
+ }
+
+  footer {
+    font-size: 16px;
+    opacity: 0.7;
+  }
+
+  header {
+    font-size: 16px;
+    opacity: 0.7;
+  }
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+.col {
+    font-size: 22px;
+  }
+
+  .col h2,
+  .col h3 {
+    margin-top: 0;
+  }
