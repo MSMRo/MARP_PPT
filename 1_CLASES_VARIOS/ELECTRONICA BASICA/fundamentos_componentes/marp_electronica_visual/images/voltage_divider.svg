@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">Divisor resistivo</text>
+<path class="s" d="M180 130 V190 M180 190 l-22 14 44 22 -44 22 44 22 -22 14 V370"/>
+<path class="s" d="M180 130 H520 M180 370 H520 M520 130 V195 M520 195 l-22 14 44 22 -44 22 44 22 -22 14 V370"/>
+<path class="a" d="M520 270 H800"/><circle class="node" cx="520" cy="270" r="8"/>
+<text class="l" x="95" y="120">Vin</text><text class="l" x="235" y="235">R1</text><text class="l" x="565" y="235">R2</text>
+<text class="l" x="810" y="280">Vout</text><text class="l" x="550" y="410">GND</text><path class="s" d="M520 370 V410 M480 410 H560"/>
+</svg>

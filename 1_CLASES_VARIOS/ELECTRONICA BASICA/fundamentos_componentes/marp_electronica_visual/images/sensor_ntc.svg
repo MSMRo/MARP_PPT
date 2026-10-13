@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">Lectura de NTC mediante divisor y ADC</text>
+<path class="s" d="M250 120 V175 M250 175 l-22 14 44 22 -44 22 44 22 -22 14 V315"/>
+<path class="s" d="M250 315 V365 M210 365 H290"/><path class="a" d="M250 265 H580"/><circle class="node" cx="250" cy="265" r="8"/>
+<rect class="box" x="580" y="215" width="220" height="100" rx="14"/><text class="l" x="635" y="255">Entrada ADC</text><text class="l" x="635" y="288">Vout</text>
+<path class="s" d="M250 120 H420"/><text class="l" x="150" y="105">Vref</text><text class="l" x="305" y="220">Rfixed</text>
+<path class="s" d="M250 315 l-22 14 44 22 -44 22 44 22 -22 14 V430"/><text class="l" x="305" y="370">NTC</text><text class="l" x="170" y="465">GND</text>
+<text class="l" x="850" y="245">Vout = Vref ·</text><text class="l" x="850" y="280">RNTC / (Rfixed + RNTC)</text>
+</svg>

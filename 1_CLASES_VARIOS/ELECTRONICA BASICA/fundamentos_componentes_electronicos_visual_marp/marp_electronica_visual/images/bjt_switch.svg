@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">BJT NPN como interruptor de lado bajo</text>
+<rect class="box" x="90" y="125" width="200" height="110" rx="16"/><text class="l" x="125" y="170">Salida GPIO</text><text class="l" x="135" y="205">3.3 / 5 V</text>
+<path class="s" d="M290 180 H400"/><path class="s" d="M400 180 l-18 -12 M400 180 l-18 12"/>
+<rect class="box" x="420" y="140" width="120" height="80" rx="12"/><text class="l" x="450" y="190">R_B</text>
+<path class="s" d="M540 180 H620"/><circle cx="680" cy="250" r="60" fill="#fff" stroke="#243b53" stroke-width="5"/><text class="l" x="640" y="260">NPN</text>
+<path class="s" d="M680 190 V105 H900 V165"/><rect class="box" x="850" y="165" width="100" height="95" rx="12"/><text class="l" x="860" y="220">Carga</text>
+<path class="s" d="M900 260 V390 H680 V310 M620 390 H740"/><text class="l" x="790" y="435">GND común</text><text class="l" x="785" y="90">+V carga</text>
+</svg>

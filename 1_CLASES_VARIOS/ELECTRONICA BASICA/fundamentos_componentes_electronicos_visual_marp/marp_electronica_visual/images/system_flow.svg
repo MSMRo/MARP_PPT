@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">Sistema de control de temperatura y ventilador</text>
+<rect class="box" x="50" y="180" width="190" height="110" rx="18"/><text class="l" x="105" y="225">Sensor NTC</text><text class="l" x="95" y="260">Temperatura</text>
+<rect class="box" x="330" y="180" width="210" height="110" rx="18"/><text class="l" x="370" y="225">ADC + MCU</text><text class="l" x="375" y="260">Control</text>
+<rect class="box" x="630" y="180" width="210" height="110" rx="18"/><text class="l" x="685" y="225">PWM</text><text class="l" x="665" y="260">Driver MOSFET</text>
+<rect class="box" x="930" y="180" width="220" height="110" rx="18"/><text class="l" x="985" y="225">Ventilador</text><text class="l" x="980" y="260">Flujo de aire</text>
+<path class="a" d="M240 235 H330 M540 235 H630 M840 235 H930"/>
+<path class="s" d="M1040 290 V390 H145 V290"/><text class="l" x="390" y="435">Realimentación térmica del sistema</text>
+</svg>

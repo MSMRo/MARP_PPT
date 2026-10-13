@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">Circuito RC: respuesta transitoria</text>
+<path class="s" d="M130 190 H260 M260 190 l-22 -20 44 -20 -44 -20 44 -20 -22 -20 H560"/>
+<path class="s" d="M560 90 V220 M525 220 H595 M525 245 H595 M560 245 V390 H130 V190"/>
+<path class="a" d="M560 245 H850"/><text class="l" x="70" y="180">Vin</text><text class="l" x="310" y="125">R</text>
+<text class="l" x="605" y="245">C</text><text class="l" x="870" y="255">Vc(t)</text><text class="l" x="100" y="435">GND</text>
+<text class="l" x="720" y="390">τ = RC</text>
+</svg>

@@ -1,0 +1,16 @@
+PRESENTACIÓN MARP VISUAL — FUNDAMENTOS DE COMPONENTES ELECTRÓNICOS
+
+Contenido:
+- fundamentos_componentes_electronicos_visual.marp.md
+- images/: ilustraciones vectoriales SVG de circuitos/componentes y una imagen general de componentes.
+
+Las imágenes y diagramas se guardan como archivos separados y se insertan mediante rutas relativas.
+No hay diagramas ASCII en el cuerpo de las diapositivas.
+
+Para exportar:
+1. Abra el archivo .md en Visual Studio Code.
+2. Instale la extensión Marp for VS Code.
+3. Abra la vista previa de Marp.
+4. Exporte a PDF o PowerPoint.
+
+Importante: los diagramas son esquemáticos/didácticos. Antes de construir un circuito, valide el pinout, las protecciones y los valores contra los datasheets del componente concreto.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">Inductor: almacenamiento magnético</text>
+<path class="s" d="M170 270 H300 M300 270 C300 190 390 190 390 270 C390 190 480 190 480 270 C480 190 570 190 570 270 C570 190 660 190 660 270 H950"/><text class="l" x="350" y="485">v = L·di/dt · Energía almacenada: E = ½LI²</text>
+</svg>

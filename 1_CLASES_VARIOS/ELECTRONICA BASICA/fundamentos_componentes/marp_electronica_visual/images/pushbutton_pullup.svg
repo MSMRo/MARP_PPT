@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">Pulsador con resistencia pull-up</text>
+<path class="s" d="M260 110 V175 M260 175 l-22 14 44 22 -44 22 44 22 -22 14 V315"/>
+<path class="a" d="M260 265 H620"/><circle class="node" cx="260" cy="265" r="8"/>
+<rect class="box" x="620" y="220" width="220" height="90" rx="14"/><text class="l" x="660" y="275">GPIO digital</text>
+<path class="s" d="M260 315 V355 M225 355 H295 M235 370 H285 M245 385 H275"/>
+<path class="s" d="M260 110 H430"/><text class="l" x="120" y="100">Vcc</text><text class="l" x="305" y="220">Rpull-up</text><text class="l" x="160" y="430">Pulsador a GND</text>
+<text class="l" x="875" y="240">Abierto → HIGH</text><text class="l" x="875" y="285">Presionado → LOW</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="100%" height="100%" rx="24" fill="#f7fafc"/>
+<style>
+.t{font: bold 30px Arial,sans-serif;fill:#17324d} .l{font: 23px Arial,sans-serif;fill:#243b53}
+.s{stroke:#243b53;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.a{stroke:#087f8c;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.box{fill:#e3f4f3;stroke:#087f8c;stroke-width:3}
+.node{fill:#243b53}
+</style>
+<text x="50" y="55" class="t">MOSFET controlando un ventilador DC</text>
+<rect class="box" x="70" y="150" width="200" height="110" rx="16"/><text class="l" x="100" y="195">Microcontrolador</text><text class="l" x="135" y="230">PWM</text>
+<path class="a" d="M270 205 H390"/><rect class="box" x="390" y="170" width="170" height="70" rx="12"/><text class="l" x="420" y="215">Gate MOSFET</text>
+<path class="s" d="M560 205 H670 V320"/><rect class="box" x="615" y="100" width="230" height="95" rx="16"/><text class="l" x="665" y="140">Ventilador</text><text class="l" x="670" y="172">DC</text>
+<path class="s" d="M730 195 V250 H670 V320"/><path class="s" d="M670 320 V390 H900 V195 H845"/><text class="l" x="890" y="180">+Vfan</text>
+<rect class="box" x="610" y="320" width="120" height="70" rx="12"/><text class="l" x="635" y="365">MOSFET</text>
+<path class="s" d="M670 390 V445 H580"/><path class="s" d="M540 445 H620"/><text class="l" x="410" y="455">GND común</text>
+<path class="a" d="M845 150 H900 V250"/><text class="l" x="930" y="275">Protección</text><text class="l" x="930" y="305">según motor</text>
+</svg>
